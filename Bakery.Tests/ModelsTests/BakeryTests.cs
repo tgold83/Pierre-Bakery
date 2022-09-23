@@ -31,5 +31,18 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(2, breadDeal);
     }
+
+    [TestMethod]
+    public void Bread_GetBreadTotal_Discount()
+    {
+      //Arrange
+      int breadCount = 3;
+      Bread breadOrder = new Bread(breadCount);
+      int breadDeal;
+      //Act
+      breadDeal = breadOrder.Discount();
+      //Assert
+      Assert.AreEqual(10, breadDeal);
+    }
   }
 }
