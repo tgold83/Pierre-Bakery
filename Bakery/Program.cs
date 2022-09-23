@@ -16,6 +16,24 @@ namespace CarbOrder
       Pastry pastryOrder = new Pastry(pastryAmount);
       int orderTotal = (breadOrder.Discount() + pastryOrder.Discount());
       Console.WriteLine("Your total is $" + orderTotal);
+      
+      Console.WriteLine("would you like to add to your order? Enter yes or no:");
+      if (Console.ReadLine() == "yes" || Console.ReadLine() == "Yes")
+      {
+        Console.WriteLine("How many loaves of bread would you like to add to your order? Enter a number:");
+        int addBread = Int32.Parse(Console.ReadLine());
+        Bread addBreadOrder = new Bread(addBread);
+        Console.WriteLine("How many pastries would you liketo add to your order? Enter a number:");
+        int addPastry = Int32.Parse(Console.ReadLine());
+        Pastry addPastryOrder = new Pastry(addPastry);
+        int NewOrderTotal = ((addBreadOrder.Discount() + addPastryOrder.Discount()) + orderTotal);
+        Console.WriteLine("Your new total is $" + NewOrderTotal);
+      }
+      else
+      {
+        Console.WriteLine("Your total is $" + orderTotal);
+      }
+      int addOrder = Int32.Parse(Console.ReadLine());
     }
   }
 }
