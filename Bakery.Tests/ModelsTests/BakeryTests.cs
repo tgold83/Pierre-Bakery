@@ -18,7 +18,7 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(1, breadOrder.BreadCount);
     }
-    
+
     [TestMethod]
     public void Bread_GetBreadTotal_Discount()
     {
@@ -30,6 +30,21 @@ namespace Bakery.Tests
       breadDeal = breadOrder.Discount();
       //Assert
       Assert.AreEqual(10, breadDeal);
+    }
+  }
+
+  [TestClass]
+  public class PastryTests
+  {
+    [TestMethod]
+    public void Pastry_GetPastryCount_PastryCount()
+    {
+      //Arrange
+      int pastryCount = 1;
+      //Act
+      Pastry pastryOrder = new Pastry(pastryCount);
+      //Assert
+      Assert.AreEqual(1, pastryOrder.PastryCount);
     }
   }
 }
