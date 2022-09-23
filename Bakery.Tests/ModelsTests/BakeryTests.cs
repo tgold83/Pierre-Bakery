@@ -18,5 +18,18 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(1, breadOrder.BreadCount);
     }
+
+     [TestMethod]
+    public void Bread_GetBreadCountDividedBy3_Discount()
+    {
+      //Arrange
+      int breadCount = 8;
+      Bread breadOrder = new Bread(breadCount);
+      int breadDeal;
+      //Act
+      breadDeal = breadOrder.Discount();
+      //Assert
+      Assert.AreEqual(2, breadDeal);
+    }
   }
 }
