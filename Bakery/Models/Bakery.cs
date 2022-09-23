@@ -14,7 +14,16 @@ namespace Bakery
     {
       int breadDeal = 5 * (BreadCount / 3);
       int breadTotal  = (5 * BreadCount) - breadDeal;
+      
+      if (BreadCount >= 12)
+      {
+        int bakersDozenBread = breadTotal - 5;
+        return bakersDozenBread;
+      }
+      else
+      {
       return breadTotal;
+      }
     }
   }
 
@@ -30,7 +39,16 @@ namespace Bakery
     {
       int pastryDeal = 1 * (PastryCount / 3);
       int pastryTotal  = (2 * PastryCount) - pastryDeal;
-      return pastryTotal;
+
+      if (PastryCount >= 12)
+      {
+        int bakersDozenPastry = pastryTotal - 2;
+        return bakersDozenPastry;
+      }
+      else
+      {
+        return pastryTotal;
+      }
     }
   }
 }
