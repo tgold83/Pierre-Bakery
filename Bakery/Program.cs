@@ -7,8 +7,26 @@ namespace CarbOrder
   {
     public static void Main()
     {
-      Console.WriteLine("Welcome to Pierre's Bakery! Bread is $5 a loaf or buy 2 get 1 free. Pastries are 1 for $2 and you get a dollar off for each third pastry purchased.");
-      
+      Console.WriteLine("Welcome to Pierre's Bakery!");
+
+      Console.WriteLine("would you like to hear about our deals? Enter yes or no:");
+      string answer = Console.ReadLine();
+      switch (answer) 
+      {
+        case "yes": 
+          Console.WriteLine("We have some great deals for you! Bread is $5 a loaf or buy 2 get 1 free. Pastries are 1 for $2 and you get a dollar off for each third pastry purchased. If you get a dozen or more of either bread or pastries, you will get one free ($5 off for bread, $2 off for pastry)");
+          break;
+        case "Yes":
+          Console.WriteLine("We have some great deals for you! Bread is $5 a loaf or buy 2 get 1 free. Pastries are 1 for $2 and you get a dollar off for each third pastry purchased. If you get a dozen or more of either bread or pastries, you will get one free ($5 off for bread, $2 off for pastry)");
+          break;
+        case "no":
+          break;
+        case "No":
+          break;
+        default:
+          break;
+      }
+
       Console.WriteLine("How many loaves of bread would you like? Enter a number:");
       int breadAmount = Int32.Parse(Console.ReadLine());
       Bread breadOrder = new Bread(breadAmount);
@@ -34,7 +52,6 @@ namespace CarbOrder
       {
         Console.WriteLine("Your total is $" + orderTotal);
       }
-      int addOrder = Int32.Parse(Console.ReadLine());
     }
   }
 }
