@@ -43,7 +43,7 @@ namespace Bakery.Tests
       //Act
       bakersDozenBread = breadOrder.Discount();
       //Assert
-      Assert.AreEqual(35, bakersDozenBread);
+      Assert.AreEqual(40, bakersDozenBread);
     }
   }
 
