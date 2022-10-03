@@ -98,3 +98,7 @@ C:\Users\tedjo\onedrive\desktop\epicodus\Pierre-Bakery\Bakery.Tests\obj\Debug\ne
 C:\Users\tedjo\onedrive\desktop\epicodus\Pierre-Bakery\Bakery.Tests\obj\Debug\net5.0\ref\Bakery.Tests.dll
 C:\Users\tedjo\onedrive\desktop\epicodus\Pierre-Bakery\Bakery.Tests\obj\Debug\net5.0\Bakery.Tests.pdb
 C:\Users\tedjo\onedrive\desktop\epicodus\Pierre-Bakery\Bakery.Tests\obj\Debug\net5.0\Bakery.Tests.genruntimeconfig.cache
+C:\Users\tedjo\onedrive\desktop\Epicodus\Pierre-Bakery\Bakery.Tests\bin\Debug\net5.0\Bakery.deps.json
+C:\Users\tedjo\onedrive\desktop\Epicodus\Pierre-Bakery\Bakery.Tests\bin\Debug\net5.0\Bakery.runtimeconfig.json
+C:\Users\tedjo\onedrive\desktop\Epicodus\Pierre-Bakery\Bakery.Tests\bin\Debug\net5.0\Bakery.runtimeconfig.dev.json
+C:\Users\tedjo\onedrive\desktop\Epicodus\Pierre-Bakery\Bakery.Tests\bin\Debug\net5.0\Bakery.exe

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uFBKPlMVH4NeUZHINEd4o2k85w0yocODCdVtAr74WsroFeJS13stF3wlzg3TLzQ0ug8L4+WnYWPS4u/0RuvGjA==",
+  "dgSpecHash": "9HUoghOYOQfeYXfti8X7jQ+2yJf5CslQWI36crbzG97OYDQh6jeCtiYdhMyPhBPJJ+i3TQl4XxlbJ//6Gxf6SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
+  "projectFilePath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tedjo\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\tedjo\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {}
+    "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {
+    "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
         "projectName": "Bakery.Tests",
-        "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
+        "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\Bakery.Tests.csproj",
         "packagesPath": "C:\\Users\\tedjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery.Tests\\obj\\",
+        "outputPath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj": {
-                "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj"
+              "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj": {
+                "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj": {
+    "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj",
+        "projectUniqueName": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj",
         "projectName": "Bakery",
-        "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj",
+        "projectPath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\Bakery.csproj",
         "packagesPath": "C:\\Users\\tedjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\Pierre-Bakery\\Bakery\\obj\\",
+        "outputPath": "C:\\Users\\tedjo\\onedrive\\desktop\\Epicodus\\Pierre-Bakery\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
