@@ -85,7 +85,7 @@ namespace Bakery.Tests
       //Act
       bakersDozenPastry = pastryOrder.Discount();
       //Assert
-      Assert.AreEqual(15, bakersDozenPastry);
+      Assert.AreEqual(20, bakersDozenPastry);
     }
   }
 }
