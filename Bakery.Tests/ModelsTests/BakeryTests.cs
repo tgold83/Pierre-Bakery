@@ -73,5 +73,19 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(5, pastryDeal);
     }
+
+    [TestMethod]
+    public void Pastry_GetBakersDozenTotal_BakersDozen()
+    {
+      //Arrange
+      int pastryCount = 13;
+      Pastry pastryOrder = new Pastry(pastryCount);
+      int pastryDeal;
+      int bakersDozenPastry;
+      //Act
+      bakersDozenPastry = pastryOrder.Discount();
+      //Assert
+      Assert.AreEqual(15, bakersDozenPastry);
+    }
   }
 }
